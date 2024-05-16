@@ -181,6 +181,7 @@ section{
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: color;
+
 }
 
 .home-container .home{
@@ -191,7 +192,7 @@ section{
 }
 
 .home-container .home form{
-    background-color: var(--white);
+    background-color: var(--main-color);
     width: 50rem;
     border-radius: .5rem;
     padding: 2rem;
@@ -200,7 +201,7 @@ section{
 
 .home-container .home form h3{
     font-size: 2.5rem;
-    color: var(--black);
+    color: var(--white);
     margin-bottom: 1rem;
     text-transform: capitalize;
 }
@@ -208,7 +209,7 @@ section{
 .home-container .home form p{
     text-align: left;
     font-size: 1.6rem;
-    color: var(--light-color);
+    color: var(--white);
     padding-top: 1rem;
 }
 
@@ -216,7 +217,7 @@ section{
     width: 100%;
     border-radius: .5rem;
     margin: 1rem 0;
-    background-color: var(--light-bg);
+    background-color: var(--white);
     padding: 1.4rem;
     font-size: 1.8rem;
     color: var(--black);

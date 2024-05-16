@@ -391,22 +391,12 @@
 
         </section>
 
-        <div class="credit">&copy; copyright @2024 by <span>codSoft</span>| all rights reserved!</div>
+        <div class="credit">&copy; copyright @2024 by <span>codSoft</span>| all rights reserved! ~Divya Kumari</div>
     </footer>
-
+   
 
     <script src="script.js"></script>
 
-    <script>
-        let dropdown_items  = document.querySelectorAll('.job-filter form .dropdown-container .dropdown .lists .items');
-
-        dropdown_items.forEach(items =>{
-            items.onclick = () =>{
-                items_parent = items.parentElement.parentElement;
-                let output = items_parent.querySelector('.output');
-                output.value = items.innerText;
-            }
-        });
-    </script>
+    
 </body>
 </html>

@@ -16,5 +16,4 @@ document.querySelectorAll('input[type ="number"]').forEach(inputNumber =>{
     };
 });
 
-let dropdown_items  = document.querySelectorAll('.job-filter form .dropdown-container .dropdown .lists .items');
 
