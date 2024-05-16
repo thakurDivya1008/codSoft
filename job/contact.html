@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+
+            <div id="menu-btn"class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"> <i class="fas fa-briefcase" ></i>CodSoft JobBoard</a>
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">about us</a>
+                <a href="jobs.html">all jobs</a>
+                <a href="contact.html">contact us</a>
+                <a href="login.html">account</a>
+            </nav>
+
+            <a href="#" class="btn">Post job</a>
+        </section>
+    </header>
+
+    <div class="section-title">contact us</div>
+    <section class="contact">
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <a href="tel:1234567890">123-456-789</a>
+                <a href="tel:1112223333">111-222-3333</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:divyakumari@gmail.com">divyakumari@gmail.com</a>
+                <a href="mailto:alokThakur@gmail.com">alokThakur@gmail.com</a>
+                
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#">flat no. 1, a-1 buliding,jogeswari,mumbai,india-4000410</a>
+            </div>
+        </div>
+        <form action="" method="post">
+            <h3>drop your message here</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>name <span>*</span></p>
+                    <input type="text" name="name" required maxlength="50"placeholder="enter your name"class="input">
+                </div>
+
+                <div class="box">
+                    <p>email<span>*</span></p>
+                    <input type="text" name="email" required maxlength="50"placeholder="enter your email"class="input">
+                </div>
+                <div class="box">
+                    <p>phone no<span>*</span></p>
+                    <input type="text" name="phoneNo" required min="0" max="999999999"placeholder="enter your phone number"class="input">
+                </div>
+                <div class="box">
+                    <p>role<span>*</span></p>
+                   <select aria-label="role" required class="input">
+                    <option value="employee">job seeker (employee)</option>
+                    <option value="employeer">job provider (employee)</option>
+                   </select>
+                </div>
+            </div>
+            <p>message <span>*</span></p>
+            <textarea name="message" class="input" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>About</a>
+                <a href="job.html"><i class="fas fa-angle-right"></i>All job</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i>Contact us</a>
+                <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
+
+
+
+            </div>
+
+            <div class="box">
+                <h3>Extra links</h3>
+                
+                <a href="#"><i class="fas fa-angle-right"></i>account</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>login</a>
+                <a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Post job</a>
+
+                <a href="#"><i class="fas fa-angle-right"></i>Dashboard</a>
+                
+                
+           </div>
+           <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+            <a href="#"><i class="fab fa-youtube"></i>youtube</a>
+           </div>
+
+        </section>
+
+        <div class="credit">&copy; copyright @2024 by <span>codSoft</span>| all rights reserved!~Divya Kumari</div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
